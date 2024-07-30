@@ -21,6 +21,7 @@ class Page {
 
     }
 
+    // Function used to add a device
     async addDevice (deviceName, deviceType, capacity) {
         await t
             .typeText(this.loc_systemInput, deviceName)
