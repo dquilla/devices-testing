@@ -1,0 +1,13 @@
+{
+    "name": "devicestesting",
+    "version": "1.0.0",
+    "author": "David Quilla davidoqm@gmail.com",
+    "description": "Code challenge",
+    "scripts": {
+        "test-chrome-headless": "testcafe 'chrome:headless' test/tests.js",
+        "test-chrome": "testcafe chrome test/tests.js"
+    },
+    "devDependencies": {
+        "testcafe": "^3.6.2"
+    }
+}
